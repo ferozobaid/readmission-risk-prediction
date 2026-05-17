@@ -77,7 +77,11 @@ readmission-risk-prediction/
 │   ├── full_dashboard.png
 │   └── shap_waterfall_top3.png
 └── docs/
-    └── model_card.md
+    ├── model_card.md
+    ├── Full_Report.docx               # full project write-up
+    ├── Problem_Writeup.docx           # original proposal narrative
+    ├── Final_Presentation.pptx        # final group deck
+    └── Final_Presentation_7min.pptx   # 7-minute version
 ```
 
 ## Quick Start
