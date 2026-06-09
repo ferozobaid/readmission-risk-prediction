@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Hospital readmissions within 30 days cost the U.S. healthcare system over **$26 billion annually**. Care-management resources — transition-of-care nurses, social workers, follow-up scheduling — are limited, so hospitals need a reliable way to prioritize which discharged patients most need intervention.
 
@@ -21,7 +21,7 @@ This project builds an **end-to-end proof-of-value (PoV) pipeline** that predict
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 | Property | Value |
 |---|---|
@@ -34,7 +34,7 @@ This project builds an **end-to-end proof-of-value (PoV) pipeline** that predict
 
 ---
 
-## 📈 Results
+##  Results
 
 | Model | PR-AUC | ROC-AUC | Recall@10% | Lift@10% | Brier |
 |---|:-:|:-:|:-:|:-:|:-:|
@@ -58,7 +58,7 @@ This project builds an **end-to-end proof-of-value (PoV) pipeline** that predict
 
 ---
 
-## 🛠️ Pipeline (14 phases)
+##  Pipeline (14 phases)
 
 1. **Data loading** — 101 K encounters from CSV
 2. **Cleaning & leakage prevention** — remove death/hospice (2,423 rows), handle missing values, drop near-empty columns
@@ -77,7 +77,7 @@ This project builds an **end-to-end proof-of-value (PoV) pipeline** that predict
 
 ---
 
-## 🧠 Key Design Decisions
+##  Key Design Decisions
 
 | Decision | Why |
 |---|---|
@@ -90,7 +90,7 @@ This project builds an **end-to-end proof-of-value (PoV) pipeline** that predict
 
 ---
 
-## 🧪 Tech Stack
+##  Tech Stack
 
 | Layer | Tools |
 |---|---|
@@ -102,7 +102,7 @@ This project builds an **end-to-end proof-of-value (PoV) pipeline** that predict
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 readmission-risk-prediction/
@@ -134,7 +134,7 @@ readmission-risk-prediction/
 
 ---
 
-## 🚀 Run It Locally
+##  Run It Locally
 
 ```bash
 git clone https://github.com/ferozobaid/readmission-risk-prediction.git
@@ -147,7 +147,7 @@ jupyter lab notebooks/Readmission_Risk_Pipeline.ipynb
 
 ---
 
-## 🔭 Future Improvements
+##  Future Improvements
 
 - **External validation** — test transferability to MIMIC-IV or eICU cohorts
 - **Temporal split** — train on 1999–2006, hold out 2007–2008, to mimic deployment
@@ -157,17 +157,17 @@ jupyter lab notebooks/Readmission_Risk_Pipeline.ipynb
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 Academic project — not validated for clinical production use. Predictions should not drive patient care decisions without independent validation in your local population.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Feroz Obaid Khan** — Master of Management Analytics, McGill University
 🔗 GitHub: [@ferozobaid](https://github.com/ferozobaid)
 
-## 📜 License
+##  License
 
 Code: MIT — see [LICENSE](LICENSE). Dataset: UCI ML Repository under CC BY 4.0.
